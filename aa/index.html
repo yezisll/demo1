@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		
+		function average(arr) {
+			var str = [], sum = 0;
+			for(var i = 0; i < arr.length; i++) {
+				if(parseInt(arr[i]) !== arr[i]) {
+					str.push(arr[i]);
+					sum += arr[i];
+				}
+			}
+			var avg = sum / str.length;
+			return avg; 
+		}
+		average(arr);
+	</script>
+</head>
+<body style="background: #C0E090;">
+	
+</body>
+</html>
